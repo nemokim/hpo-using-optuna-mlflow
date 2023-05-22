@@ -14,7 +14,7 @@ def identify_column_types(X: pd.DataFrame) -> Tuple[List, List]:
 
     return num_cols, cat_cols
 
-
+#git adit
 def make_preprocess_pipeline(
     num_cols: List[str], cat_cols: List[str]
 ) -> ColumnTransformer:
